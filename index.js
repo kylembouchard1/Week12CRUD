@@ -136,7 +136,7 @@ class DOMManager {
                 $(`#${house._id}`).find(`.card-body`).append(
                     `<p>
                     <span id="name-${room._id}"><strong>Name: </strong> ${room.name}</span>
-                    <span id="area-${room._id}"><strong>Name: </strong> ${room.area}</span>
+                    <span id="area-${room._id}"><strong>Area: </strong> ${room.area}</span>
                     <button class="btn btn-danger" onclick="DOMManager.deleteRoom('${house._id}', '${room._id}')">Delete Room</button>`
                 );
             }
